@@ -10,6 +10,7 @@ import {
   CylinderCollider,
   RapierRigidBody,
 } from "@react-three/rapier";
+import "./styles/TechStack.css";
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
@@ -19,7 +20,7 @@ const imageUrls = [
   "/images/express.webp",
   "/images/mongo.webp",
   "/images/mysql.webp",
-  "/images/typescript.webp",
+  "/images/python1.jpg",
   "/images/javascript.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
